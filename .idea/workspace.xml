@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="93c8d3f9-d60d-4123-9767-f883b59f3461" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
@@ -38,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604331503584</updated>
-      <workItem from="1604331504665" duration="1025000" />
+      <workItem from="1604331504665" duration="1362000" />
     </task>
     <servers />
   </component>
