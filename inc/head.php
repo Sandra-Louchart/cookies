@@ -43,11 +43,14 @@
                             Cart
                         </a>
                     </li>
+                    <?php if (isset($_SESSION['loginname'])):?>
+                    <li><a href="logout.php">Log out</a></li>
+                    <?php endif;?>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
     <div class="container-fluid text-right">
-        <strong>Hello Wilder !</strong>
+        <strong>Hello <?= isset ($_SESSION['loginname']) ? $_SESSION['loginname'] : 'Wilder' ?>  </strong>
     </div>
 </header>
