@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c8d3f9-d60d-4123-9767-f883b59f3461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604331503584</updated>
       <workItem from="1604331504665" duration="1362000" />
+      <workItem from="1604406540113" duration="17000" />
+      <workItem from="1604677244384" duration="301000" />
     </task>
     <servers />
   </component>
@@ -47,6 +46,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="307" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604406555360">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="307" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604406555360" />
     <state x="319" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1604332100385">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

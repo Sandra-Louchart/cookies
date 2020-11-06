@@ -1,4 +1,20 @@
-<?php session_start()?>
+<?php session_start();
+define('LOGIN','Wilders');
+if (!empty($_POST)) {
+    if (!empty($_POST['loginname'])) {
+        if ($_POST['loginname'] !== LOGIN) {
+            echo 'Try again !';
+        } else {
+            $_SESSION['loginname'] = LOGIN;
+            header('Location: index.php');
+            exit();
+        }
+    }
+}
+
+if (isset($_GET['add_to_cart'])) {
+    $_SESSION['carts'][] = $_GET['add_to_cart'];
+}?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
