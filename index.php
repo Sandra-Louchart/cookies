@@ -6,7 +6,6 @@ if (isset($_GET['id'])) {
 }
 ?>
 <section class="cookies container-fluid">
-    <?php if(isset($_SESSION['loginname'])): ?>
         <div class="row">
             <?php foreach ($catalog as $id => $cookie) { ?>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
@@ -23,7 +22,7 @@ if (isset($_GET['id'])) {
                 </div>
             <?php } ?>
         </div>
-    <?php else: ?>
+    <?php if(!isset($_SESSION['loginname'])): ?>
         <a href="login.php">Log in</a>
     <?php endif; ?>
 </section>

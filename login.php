@@ -1,11 +1,16 @@
 <?php require 'inc/head.php'; ?>
 <?php
-if (isset($_POST['loginname'])) {
-    $_SESSION['loginname'] = $_POST['loginname'];
-}
-if (isset($_SESSION['loginname'])) {
-    header("Location: index.php");
-    exit();
+if (!empty($_POST)) {
+    if (!empty($_POST['loginname'])) {
+        header("Location: index.php");
+    }
+    if (isset($_POST['loginname'])) {
+        $_SESSION['loginname'] = $_POST['loginname'];
+    }
+    if (isset($_SESSION['loginname'])) {
+        header("Location: index.php");
+        exit();
+    }
 }
 ?>
     <div class="container" style="margin-top:40px">
