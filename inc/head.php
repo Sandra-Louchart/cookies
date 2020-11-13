@@ -1,4 +1,10 @@
-<?php session_start()?>
+
+<?php
+session_start();
+
+define('LOGIN','kiki');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +37,6 @@
                     <h1>The Cookies Factory</h1>
                 </a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -44,14 +49,16 @@
                             Cart
                         </a>
                     </li>
-                    <?php if (isset($_SESSION['loginname'])):?>
-                    <li><a href="logout.php">Log out</a></li>
-                    <?php endif;?>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
     <div class="container-fluid text-right">
-        <strong>Hello <?= isset ($_SESSION['loginname']) ? $_SESSION['loginname'] : 'Wilder' ?>  </strong>
+        <strong>Hello <?= $_SESSION["loginname"] ?? 'Wilder tu n\'es pas connecté ' ?>!</strong>
+        <?php if (!empty($_SESSION['loginname'])) {?>
+            <a href="logout.php">Deconnection</a>
+            <?php
+        }
+        ?>
     </div>
 </header>
