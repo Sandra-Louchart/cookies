@@ -2,7 +2,7 @@
 <?php
 session_start();
 
-define('LOGIN','kiki');
+define('LOGIN','ooups');
 
 ?>
 <!DOCTYPE html>
